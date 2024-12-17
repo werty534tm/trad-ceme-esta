@@ -1,0 +1,7 @@
+neovim
+deno
+go
+python
+pip
+# hay que instalar rust con rust también
+node
