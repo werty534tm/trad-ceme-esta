@@ -2,5 +2,8 @@
   "image": "python",
   "features": {
     "ghcr.io/meaningful-ooo/devcontainer-features/homebrew:2": {}
-  }
+  },
+  "setup": [
+    "./setup.sh"
+  ]
 }

@@ -1,7 +1,9 @@
 neovim
 deno
 go
-python
-pip
 # hay que instalar rust con rust también
 node
+stow
+nushell
+kitty # con apt
+# También tengo que recordar instalar carapace
