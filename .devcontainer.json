@@ -1,9 +1,7 @@
 {
-  "image": "python",
+  "image": "mcr.microsoft.com/vscode/devcontainers/python",
   "features": {
-    "ghcr.io/meaningful-ooo/devcontainer-features/homebrew:2": {},
-    "ghcr.io/devcontainers/features/common-utils": {}
+    "ghcr.io/meaningful-ooo/devcontainer-features/homebrew:2": {}
   },
-  "onCreateCommand": "./setup.sh",
-  "remoteUser": "negrojose"
+  "onCreateCommand": "./setup.sh"
 }
