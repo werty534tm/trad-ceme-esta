@@ -23,9 +23,10 @@ packages=(
 apt update
 apt install -y kitty
 
+brew update
 for package in "${packages[@]}"; do
   echo "Estoy instalando $package no toques los huevos ahora"
-  brew "$package"
+  brew install "$package"
 done
 
 echo "nu" >> ~/.bashrc
