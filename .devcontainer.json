@@ -3,5 +3,6 @@
   "features": {
     "ghcr.io/meaningful-ooo/devcontainer-features/homebrew:2": {}
   },
-  "onCreateCommand": "./setup.sh"
+  "onCreateCommand": "./setup.sh",
+  "remoteUser": "negrojose"
 }

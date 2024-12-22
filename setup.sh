@@ -19,6 +19,7 @@ packages=(
   go
   stow
   carapace
+  starrship
 )
 
 apt update
