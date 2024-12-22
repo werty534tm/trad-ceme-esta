@@ -20,7 +20,7 @@ packages=(
   go
   stow
   carapace
-  starrship
+  starship
   unzip
   node
   npm
