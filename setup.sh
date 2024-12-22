@@ -7,6 +7,7 @@ mkdir -p "$XDG_CONFIG_HOME"
 
 mv /workspaces/trad-ceme-esta/punto/nvim $XDG_CONFIG_HOME/
 mv /workspaces/trad-ceme-esta/punto/nushell $XDG_CONFIG_HOME/
+mv /workspaces/trad-ceme-esta/rust.sh .
 
 packages=(
   fd
@@ -31,4 +32,4 @@ done
 
 echo "nu" >> ~/.bashrc
 
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -y
+./rust.sh -y
