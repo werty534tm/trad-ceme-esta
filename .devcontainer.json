@@ -3,7 +3,5 @@
   "features": {
     "ghcr.io/meaningful-ooo/devcontainer-features/homebrew:2": {}
   },
-  "setup": [
-    "./setup.sh"
-  ]
+  "onCreateCommand": "./setup.sh"
 }
