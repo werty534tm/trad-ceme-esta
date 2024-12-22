@@ -7,6 +7,7 @@ mkdir -p "$XDG_CONFIG_HOME"
 
 mv /workspaces/trad-ceme-esta/punto/nvim $XDG_CONFIG_HOME/
 mv /workspaces/trad-ceme-esta/punto/nushell $XDG_CONFIG_HOME/
+mv /workspaces/trad-ceme-esta/punto/starship.toml $XDG_CONFIG_HOME/
 mv /workspaces/trad-ceme-esta/rust.sh .
 
 packages=(
@@ -20,6 +21,9 @@ packages=(
   stow
   carapace
   starrship
+  unzip
+  node
+  npm
 )
 
 apt update
