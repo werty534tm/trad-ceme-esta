@@ -5,8 +5,8 @@ cd ~
 export XDG_CONFIG_HOME="$HOME"/.config
 mkdir -p "$XDG_CONFIG_HOME"
 
-cp /workspaces/trad-ceme-esta/punto/nvim $XDG_CONFIG_HOME/
-cp /workspaces/trad-ceme-esta/punto/nushell $XDG_CONFIG_HOME/
+cp -r /workspaces/trad-ceme-esta/punto/nvim $XDG_CONFIG_HOME/
+cp -r /workspaces/trad-ceme-esta/punto/nushell $XDG_CONFIG_HOME/
 cp /workspaces/trad-ceme-esta/punto/starship.toml $XDG_CONFIG_HOME/
 cp /workspaces/trad-ceme-esta/rust.sh .
 
