@@ -1,7 +1,0 @@
-{
-  "image": "mcr.microsoft.com/vscode/devcontainers/python",
-  "features": {
-    "ghcr.io/meaningful-ooo/devcontainer-features/homebrew:2": {}
-  },
-  "onCreateCommand": "./setup.sh"
-}
