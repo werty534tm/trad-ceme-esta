@@ -30,10 +30,6 @@ packages=(
   npm
 )
 
-sudo apt update
-sudo apt install -y python3-pip python3-dev g++-11 libyaml-dev \
-                 python3-tk python3-pil.imagetk \
-                 libjpeg-dev zlib1g-dev tk8.6-dev tcl8.6-dev kitty python-env
 
 brew update
 for package in "${packages[@]}"; do
@@ -44,6 +40,8 @@ done
 echo "nu" >> ~/.bashrc
 
 ./rust.sh -y
+sudo apt update
+sudo apt install -y python3-pip python3-dev g++-11 libyaml-dev python3-tk python3-pil.imagetk libjpeg-dev zlib1g-dev tk8.6-dev tcl8.6-dev kitty python-env
 
 sudo apt install -y g++-11
 
